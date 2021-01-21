@@ -1,0 +1,46 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  display: flex;
+  justify-content: center;
+}
+main
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+div
+{
+  margin-bottom: 80px;
+}
+
+div h2
+{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+div p
+{
+  font-family: 'Roboto', sans-serif;
+  color: #3C4043;
+}
+
+p a
+{
+  color: #688EE1;
+  text-decoration: none;
+}
+
+p a:hover
+{
+  cursor: pointer;
+}
